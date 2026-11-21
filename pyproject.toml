@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "naijakit"
+version = "0.1.0"
+description = "Essential Python utilities for Nigerian developers, fintechs, and SMEs."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "Ukasha M. I. Kirfi"}
+]
+keywords = ["nigeria", "fintech", "paystack", "sms-parser", "phone-validator", "africa"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
