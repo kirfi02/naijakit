@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "naijakit"
-version = "0.1.0"
+version = "0.2.0"
 description = "Essential Python utilities for Nigerian developers, fintechs, and SMEs."
 readme = "README.md"
 requires-python = ">=3.9"

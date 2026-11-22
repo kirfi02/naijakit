@@ -29,3 +29,13 @@ def calculate_paystack_fee(amount_ngn: float) -> dict:
         "fee": round(fee, 2),
         "net_settled": round(amount_ngn - fee, 2),
     }
+
+def is_valid_nin_or_bvn(number: str) -> bool:
+    """Check if a Nigerian NIN or BVN is a valid 11-digit numeric string."""
+    cleaned = number.strip()
+    return cleaned.isdigit() and len(cleaned) == 11
+
+def is_valid_nuban(account_number: str) -> bool:
+    """Check if a Nigerian bank account number is a valid 10-digit NUBAN."""
+    cleaned = account_number.strip()
+    return cleaned.isdigit() and len(cleaned) == 10
