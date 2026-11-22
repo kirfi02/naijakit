@@ -1,4 +1,6 @@
-﻿# NaijaKit 🇳🇬
+[![PyPI version](https://shields.io)](https://pypi.org)
+
+# NaijaKit 🇳🇬
 
 **Essential, zero-dependency Python utilities for Nigerian developers, fintechs, and local businesses.**
 
